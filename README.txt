@@ -1,18 +1,13 @@
 Controlling switches and wallplugs from TKB Home with Homey.
 
+Code initially created by Remco Mengers, all credits to him for his fantastic work.
+I've now taken over maintenance going forward.
+As with the existing codebase, I don't have many of these devices.
+Devices are added based on assumptions and full working of every device
+is not guaranteed.
 
 --- Current Supported devices: ---
-TSM02, TSP01, TZ04, TZ35, TZ36, TZ37, TZ55, TZ56, TZ57, TZ65, TZ66, TZ67, TZ67-PLUS, TZ68, TZ68-PLUS, TZ69, TZ74, TZ88.
-As i've stopped active developent on this app,
-any new devices won't be added by me.
-
-I'll only make sure the app keeps running after Homey updates,
-and make small changes/fixes to currently supported devices.
-
-As myself have none of these devices,
-and TKB Home doesn't follow the z-wave alliance's rules really strictly,
-a lot of these devices are added based on assumptions,
-and I can't guarentee full working of every device.
+TSM02, TSM10, TSP01, TZ04, TZ35, TZ36, TZ37, TZ55, TZ56, TZ57, TZ65, TZ66, TZ67, TZ67-PLUS, TZ68, TZ68-PLUS, TZ69, TZ74, TZ88.
 
 ----- Device Specific Notes: -----
 TZ35/TZ55/TZ65:

@@ -1,7 +1,7 @@
 {
   "id": "com.ptkbhome",
   "name": {
-    "en": "Phils TKB Home"
+    "en": "TKB Home"
   },
   "sdk": 3,
   "version": "3.0.0",
@@ -19,6 +19,7 @@
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
   },
+  "brandColor": "#FF0000",
   "author": {
     "name": "Remco Mengers",
     "email": "caseda08@hotmail.com"
