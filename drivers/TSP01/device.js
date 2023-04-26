@@ -9,9 +9,7 @@ class TSP01MotionContactSensor extends ZwaveDevice {
 		//this.enableDebug();
 
 		// Register Flows
-		let luminancePercentageChanged = new Homey.FlowCardTriggerDevice('TSP01_brightness');
-		luminancePercentageChanged
-			.register();
+		let luminancePercentageChanged = this.homey.flow.getDeviceTriggerCard('TSP01_brightness');
 
 		// Register Capabilities
 		this.registerCapability('measure_battery', 'BATTERY');

@@ -18,9 +18,7 @@ class TZ04oubleRelayMeteringModule extends ZwaveMeteringDevice {
 		this.registerSetting('kwh_report', value => Math.round(newValue / 10));
 
 		// Flows
-		let resetMeterFlowAction = new Homey.FlowCardAction('resetMeter');
-		resetMeterFlowAction
-			.register();
+		let resetMeterFlowAction = this.homey.flow.getActionCard('resetMeter');
 
 		let commandClassMeter = this.getCommandClass('METER');
 		if (!(commandClassMeter instanceof Error) && typeof commandClassMeter.METER_RESET === 'function') {

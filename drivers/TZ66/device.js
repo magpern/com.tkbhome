@@ -12,21 +12,13 @@ class TZ66Switch extends ZwaveDevice {
 		this.registerCapability('onoff', 'SWITCH_BINARY');
 
 		// Flows
-		let TZ66RightSingleOn = new Homey.FlowCardTriggerDevice('TZ66D_s2_single_on');
-		TZ66RightSingleOn
-			.register();
+		let TZ66RightSingleOn = this.homey.flow.getDeviceTriggerCard('TZ66D_s2_single_on');
 
-		let TZ66RightSingleOff = new Homey.FlowCardTriggerDevice('TZ66D_s2_single_off');
-		TZ66RightSingleOff
-			.register();
+		let TZ66RightSingleOff = this.homey.flow.getDeviceTriggerCard('TZ66D_s2_single_off');
 
-		let TZ66RightDoubleOn = new Homey.FlowCardTriggerDevice('TZ66D_s2_double_on');
-		TZ66RightDoubleOn
-			.register();
+		let TZ66RightDoubleOn = this.homey.flow.getDeviceTriggerCard('TZ66D_s2_double_on');
 
-		let TZ66RightDoubleOff = new Homey.FlowCardTriggerDevice('TZ66D_s2_double_off');
-		TZ66RightDoubleOff
-			.register();
+		let TZ66RightDoubleOff = this.homey.flow.getDeviceTriggerCard('TZ66D_s2_double_off');
 
 		// Single/double press function
 		let singlePress = false;

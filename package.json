@@ -1,5 +1,5 @@
 {
-	"name": "com.ptkbhome",
+	"name": "com.tkbhome",
 	"version": "3.0.0",
 	"description": "This app adds support for TKB Home devices in Homey",
 	"main": "app.js",

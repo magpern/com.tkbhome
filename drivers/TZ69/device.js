@@ -1,7 +1,7 @@
 'use strict';
 
 const Homey = require('homey');
-const ZwaveMeteringDevice = require('homey-zwavedriver').ZwaveMeteringDevice;
+const ZwaveMeteringDevice = require('homey-zwavedriver').ZwaveDevice;
 
 class TZ69MeteringPlug extends ZwaveMeteringDevice {
 	async onNodeInit() {
@@ -28,9 +28,7 @@ class TZ69MeteringPlug extends ZwaveMeteringDevice {
 		this.registerSetting('kwh_report', value => Math.round(value / 10));
 
 		// Flows
-		let resetMeterFlowAction = new Homey.FlowCardAction('resetMeter');
-		resetMeterFlowAction
-			.register();
+		let resetMeterFlowAction = this.homey.flow.getActionCard('resetMeter');
 
 		let commandClassMeter = this.getCommandClass('METER');
 		if (!(commandClassMeter instanceof Error) && typeof commandClassMeter.METER_RESET === 'function') {

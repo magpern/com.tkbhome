@@ -1,6 +1,6 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
-  "id": "com.ptkbhome",
+  "id": "com.tkbhome",
   "name": {
     "en": "TKB Home"
   },
@@ -22,8 +22,8 @@
   },
   "brandColor": "#FF0000",
   "author": {
-    "name": "Remco Mengers",
-    "email": "caseda08@hotmail.com"
+    "name": "Phil Shotton",
+    "email": "phil.shotton@cloudscapesolutions.com"
   },
   "contributors": {
     "developers": [
@@ -40,13 +40,13 @@
         "email": "menno@momotica.nl"
       },
       {
-        "name": "Phil Shotton",
-        "email": "phil.shotton@cloudscapesolutions.com"
+        "name": "Remco Mengers",
+        "email": "caseda08@hotmail.com"
       }
     ]
   },
-  "source": "https://github.com/caseda/com.tkbhome",
-  "support": "https://github.com/caseda/com.tkbhome/issues",
+  "source": "https://github.com/pshotton/com.tkbhome",
+  "support": "https://github.com/pshotton/com.tkbhome/issues",
   "flow": {
     "actions": [
       {

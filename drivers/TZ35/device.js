@@ -32,21 +32,13 @@ class TZ35Dimmer extends ZwaveDevice {
 		});
 
 		// Flows
-		let TZ35RightSingleOn = new Homey.FlowCardTriggerDevice('TZ35D_s2_single_on');
-		TZ35RightSingleOn
-			.register();
+		let TZ35RightSingleOn = this.homey.flow.getDeviceTriggerCard('TZ35D_s2_single_on');
 
-		let TZ35RightSingleOff = new Homey.FlowCardTriggerDevice('TZ35D_s2_single_off');
-		TZ35RightSingleOff
-			.register();
+		let TZ35RightSingleOff = this.homey.flow.getDeviceTriggerCard('TZ35D_s2_single_off');
 
-		let TZ35RightDoubleOn = new Homey.FlowCardTriggerDevice('TZ35D_s2_double_on');
-		TZ35RightDoubleOn
-			.register();
+		let TZ35RightDoubleOn = this.homey.flow.getDeviceTriggerCard('TZ35D_s2_double_on');
 
-		let TZ35RightDoubleOff = new Homey.FlowCardTriggerDevice('TZ35D_s2_double_off');
-		TZ35RightDoubleOff
-			.register();
+		let TZ35RightDoubleOff = this.homey.flow.getDeviceTriggerCard('TZ35D_s2_double_off');
 
 		// Single/Double press function
 		let singlePress = false;

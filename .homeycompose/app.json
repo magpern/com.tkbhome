@@ -1,5 +1,5 @@
 {
-  "id": "com.ptkbhome",
+  "id": "com.tkbhome",
   "name": {
     "en": "TKB Home"
   },
@@ -21,8 +21,8 @@
   },
   "brandColor": "#FF0000",
   "author": {
-    "name": "Remco Mengers",
-    "email": "caseda08@hotmail.com"
+    "name": "Phil Shotton",
+    "email": "phil.shotton@cloudscapesolutions.com"
   },
   "contributors": {
     "developers": [
@@ -39,8 +39,8 @@
         "email": "menno@momotica.nl"
       },
       {
-        "name": "Phil Shotton",
-        "email": "phil.shotton@cloudscapesolutions.com"
+        "name": "Remco Mengers",
+        "email": "caseda08@hotmail.com"
       }
     ]
   },

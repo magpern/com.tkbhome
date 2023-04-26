@@ -32,21 +32,13 @@ class TZ65Dimmer extends ZwaveDevice {
 		});
 
 		// Flows
-		let TZ65RightSingleOn = new Homey.FlowCardTriggerDevice('TZ65D_s2_single_on');
-		TZ65RightSingleOn
-			.register();
+		let TZ65RightSingleOn = this.homey.flow.getDeviceTriggerCard('TZ65D_s2_single_on');
 
-		let TZ65RightSingleOff = new Homey.FlowCardTriggerDevice('TZ65D_s2_single_off');
-		TZ65RightSingleOff
-			.register();
+		let TZ65RightSingleOff = this.homey.flow.getDeviceTriggerCard('TZ65D_s2_single_off');
 
-		let TZ65RightDoubleOn = new Homey.FlowCardTriggerDevice('TZ65D_s2_double_on');
-		TZ65RightDoubleOn
-			.register();
+		let TZ65RightDoubleOn = this.homey.flow.getDeviceTriggerCard('TZ65D_s2_double_on');
 
-		let TZ65RightDoubleOff = new Homey.FlowCardTriggerDevice('TZ65D_s2_double_off');
-		TZ65RightDoubleOff
-			.register();
+		let TZ65RightDoubleOff = this.homey.flow.getDeviceTriggerCard('TZ65D_s2_double_off');
 
 		// Single/double press function
 		let singlePress = false;
