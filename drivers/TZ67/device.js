@@ -1,10 +1,10 @@
 'use strict';
 
 const Homey = require('homey');
-const ZwaveDevice = require('homey-meshdriver').ZwaveDevice;
+const ZwaveDevice = require('homey-zwavedriver').ZwaveDevice;
 
 class TZ67PlugDimmer extends ZwaveDevice {
-	async onMeshInit() {
+	async onNodeInit() {
 		//this.printNode();
 		//this.enableDebug();
 

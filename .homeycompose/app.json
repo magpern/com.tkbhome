@@ -1,0 +1,48 @@
+{
+  "id": "com.ptkbhome",
+  "name": {
+    "en": "Phils TKB Home"
+  },
+  "sdk": 3,
+  "version": "3.0.0",
+  "compatibility": ">=5.0.0",
+  "description": {
+    "en": "TKB Home devices for Homey",
+    "nl": "TKB Home apparaten voor Homey"
+  },
+  "category": [
+    "appliances",
+    "lights",
+    "security"
+  ],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Remco Mengers",
+    "email": "caseda08@hotmail.com"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Michel Nederlof",
+        "email": ""
+      },
+      {
+        "name": "SadhuRus",
+        "email": ""
+      },
+      {
+        "name": "Menno Bliek (Momotica)",
+        "email": "menno@momotica.nl"
+      },
+      {
+        "name": "Phil Shotton",
+        "email": "phil.shotton@cloudscapesolutions.com"
+      }
+    ]
+  },
+  "source": "https://github.com/caseda/com.tkbhome",
+  "support": "https://github.com/caseda/com.tkbhome/issues"
+}

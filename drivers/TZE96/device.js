@@ -1,13 +1,13 @@
 'use strict';
 
 const Homey = require('homey');
-const ZwaveDevice = require('homey-meshdriver').ZwaveDevice;
+const ZwaveDevice = require('homey-zwavedriver').ZwaveDevice;
 
 const { ManagerZwave } = require('homey');
 
 class TZE96 extends ZwaveDevice {
 
-	onMeshInit() {
+	onNodeInit() {
 
 		//enable debugging
 		this.enableDebug();

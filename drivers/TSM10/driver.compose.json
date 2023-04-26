@@ -63,6 +63,9 @@
 		"alarm_tamper",
 		"measure_battery"
 	],
+	"energy": {
+		"batteries": ["CR123A"]
+	},
 	"mobile": {
 		"components": [
 			{

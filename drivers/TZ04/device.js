@@ -1,10 +1,10 @@
 'use strict';
 
 const Homey = require('homey');
-const ZwaveMeteringDevice = require('homey-meshdriver').ZwaveMeteringDevice;
+const ZwaveMeteringDevice = require('homey-zwavedriver').ZwaveDevice;
 
 class TZ04oubleRelayMeteringModule extends ZwaveMeteringDevice {
-	async onMeshInit() {
+	async onNodeInit() {
 		//this.printNode();
 		//this.enableDebug();
 
