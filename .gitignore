@@ -2,3 +2,4 @@
 /.homeychangelog.json
 /com.tkbhome.iml
 .idea/
+/node_modules/

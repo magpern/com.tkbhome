@@ -6,7 +6,9 @@
 	"dependencies": {
 		"homey-zwavedriver": "^1.0.4"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"homey": "^2.33.13"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
