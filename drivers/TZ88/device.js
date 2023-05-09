@@ -1,7 +1,7 @@
 'use strict';
 
 const Homey = require('homey');
-const ZwaveMeteringDevice = require('homey-zwavedriver').ZwaveMeteringDevice;
+const ZwaveMeteringDevice = require('homey-zwavedriver').ZwaveDevice;
 
 class TZ88MeteringPlug extends ZwaveMeteringDevice {
 	async onNodeInit() {
