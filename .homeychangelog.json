@@ -1,0 +1,11 @@
+{
+  "3.0.0": {
+    "en": "Testing sdk3 compatibility"
+  },
+  "3.0.1": {
+    "en": "Catch setcompatibility timeout exceptions"
+  },
+  "3.0.2": {
+    "en": "Fixed problem with TZ88 device"
+  }
+}
