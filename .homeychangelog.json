@@ -7,5 +7,8 @@
   },
   "3.0.2": {
     "en": "Fixed problem with TZ88 device"
+  },
+  "3.0.3": {
+    "en": "Removed invalid TZ88 flow card"
   }
 }
